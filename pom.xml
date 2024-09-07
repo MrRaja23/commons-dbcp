@@ -57,26 +57,26 @@
     <developer>
       <name>Morgan Delagrange</name>
       <id>morgand</id>
-      <email></email>
-      <organization></organization>
+      <email/>
+      <organization/>
     </developer>
     <developer>
       <name>Geir Magnusson</name>
       <id>geirm</id>
-      <email></email>
-      <organization></organization>
+      <email/>
+      <organization/>
     </developer>
     <developer>
       <name>Craig McClanahan</name>
       <id>craigmcc</id>
-      <email></email>
-      <organization></organization>
+      <email/>
+      <organization/>
     </developer>
     <developer>
       <name>John McNally</name>
       <id>jmcnally</id>
-      <email></email>
-      <organization></organization>
+      <email/>
+      <organization/>
     </developer>
     <developer>
       <name>Martin Poeschl</name>
@@ -87,20 +87,20 @@
     <developer>
       <name>Rodney Waldhoff</name>
       <id>rwaldhoff</id>
-      <email></email>
-      <organization></organization>
+      <email/>
+      <organization/>
     </developer>
     <developer>
       <name>David Weinrich</name>
       <id>dweinr1</id>
-      <email></email>
-      <organization></organization>
+      <email/>
+      <organization/>
     </developer>
     <developer>
       <name>Dirk Verbeeck</name>
       <id>dirkv</id>
-      <email></email>
-      <organization></organization>
+      <email/>
+      <organization/>
     </developer>
     <developer>
       <name>Yoav Shapira</name>
@@ -109,10 +109,10 @@
       <organization>The Apache Software Foundation</organization>
     </developer>
     <developer>
-      <name>J&#x00f6;rg Schaible</name>
+      <name>Jörg Schaible</name>
       <id>joehni</id>
       <email>joerg.schaible@gmx.de</email>
-      <organization></organization>
+      <organization/>
       <timezone>+1</timezone>
     </developer>
     <developer>
@@ -185,7 +185,7 @@
     <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
-      <version>1.2</version>
+      <version>1.3.4</version>
     </dependency>
 
     <dependency>
@@ -219,7 +219,7 @@
     <dependency>
       <groupId>jakarta.transaction</groupId>
       <artifactId>jakarta.transaction-api</artifactId>
-      <version>1.3.1</version>
+      <version>1.3.3</version>
     </dependency>
 
     <!-- tomcat naming jars for jndi reference tests -->
@@ -316,7 +316,7 @@
     <commons.scmPubCheckoutDirectory>site-content</commons.scmPubCheckoutDirectory>
     <commons.jira.id>DBCP</commons.jira.id>
     <commons.jira.pid>12310469</commons.jira.pid>
-    <commons.pool.version>2.11.1</commons.pool.version>
+    <commons.pool.version>2.12.0</commons.pool.version>
     <!-- See DBCP-445 and DBCP-454 -->
     <commons.osgi.import>javax.transaction;version="1.1.0",javax.transaction.xa;version="1.1.0";partial=true;mandatory:=partial,*</commons.osgi.import>
     <commons.japicmp.ignoreMissingClasses>true</commons.japicmp.ignoreMissingClasses>
@@ -331,7 +331,7 @@
     <findbugs.skip>true</findbugs.skip>
     <!-- spdx 0.6.0 can require Java 11 depending on undocumented behavior which kicks in for us here. -->
     <commons.spdx.version>0.5.5</commons.spdx.version>
-    <surefire.argline></surefire.argline>
+    <surefire.argline/>
     <version.maven-source-plugin>3.2.1</version.maven-source-plugin>
   </properties>
 
@@ -458,7 +458,7 @@
             <dependency>
               <groupId>jakarta.transaction</groupId>
               <artifactId>jakarta.transaction-api</artifactId>
-              <version>1.3.1</version>
+              <version>1.3.3</version>
             </dependency>
           </dependencies>
         </configuration>
